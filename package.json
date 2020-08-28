@@ -1,0 +1,31 @@
+{
+  "name": "social_media_app",
+  "version": "1.0.0",
+  "description": "Social Media App using MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chokidar-socket-emitter": "^0.6.0",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "1.19.0",
+    "config": "3.3.1",
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "express-fileupload": "1.2.0",
+    "jsonwebtoken": "8.5.1",
+    "jw-paginate": "^1.0.4",
+    "mongoose": "5.9.10",
+    "react-router-dom": "^5.1.2",
+    "redux-logger": "^3.0.6"
+  },
+  "proxy": "http://localhost:5000"
+}

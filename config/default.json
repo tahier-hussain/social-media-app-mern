@@ -1,0 +1,5 @@
+{
+  "mongoURI": "mongodb+srv://TahierHussain:Hussain@22@hussainprojectcluster.y5qyw.mongodb.net/social-media-app?retryWrites=true&w=majority",
+  "jwtSecret": "top-notch_secret_key",
+  "backup-string": "mongodb+srv://TahierHussain:Hussain@gettingstarted-i1rlb.mongodb.net/top-notch?retryWrites=true&w=majority"
+}
